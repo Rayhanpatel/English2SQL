@@ -1,0 +1,123 @@
+.body {
+    /* overflow-y: scroll; */
+    /* overflow-x: hidden; */
+}
+
+.database-connection-form {
+    margin-top: 1rem;
+    margin-left: 10rem;
+    box-sizing: border-box;
+    width: 500px; /* Initial width */
+    max-width: 600px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 0px 5px white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    color: white;
+    background: transparent;
+    overflow-y: auto;
+    height: auto;
+    overflow-x: clip;
+}
+
+@media (max-width: 768px) {
+    .database-connection-form {
+        margin-left: 40px;
+        width: 90%; /* Adjusted width for smaller screens */
+        max-width: 90%; /* Adjusted max-width for smaller screens */
+    }
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.head-title {
+    margin-left: 10%;
+    text-align: center; /* Center align the text */
+    margin-top: 100px; /* Adjust margin for spacing */
+    margin-bottom: 10px;
+    font-style: oblique;
+    font-size: 35px;
+    color: #ffffff;    
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .head-title {
+        font-size: 30px; /* Decrease font size for smaller screens */
+        margin-top: 1rem; /* Adjust margin for spacing */
+    }
+}
+
+
+.database-connection-form label {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.database-connection-form select, .database-connection-form input {
+    padding: 10px;
+    width: 100%; /* Full width for inputs */
+    min-width: 400px; /* Minimum width for larger screens */
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: transparent;
+    color: #ffffff;
+}
+
+#database-type {
+    padding: 10px;
+    width: 100%;
+    min-width: 400px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background: transparent;
+    color: #ffffff;
+}
+
+#database-type option {
+    background: #1f1e1e;
+    color: #ffffff;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.database-connection-form button {
+    width: 100%; /* Full width for button */
+    max-width: 400px;
+    padding: 10px;
+    margin-top: 10px;
+    /* margin-bottom: 10px; */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background: transparent;
+    background-color: #000000;
+    border-radius: 10%;
+    color: #fff;
+    cursor: pointer;
+    font-size: 15px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.database-connection-form button:hover {
+    background-color: #333;
+    color: #ffffff;
+}
+
+.success-message {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}

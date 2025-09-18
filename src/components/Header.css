@@ -1,0 +1,35 @@
+
+.nav {
+    position: sticky;
+    top: 0;
+    background-color: #000000;
+    padding: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    border-bottom: 1px solid rgb(255, 255, 255);
+}
+.logo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: "Caveat";
+    color: #fff;
+}
+
+.logo span {
+    color: #2ebce4;
+    padding-left: 5px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.sticky+.content {
+    padding-top: 20px;
+}
+

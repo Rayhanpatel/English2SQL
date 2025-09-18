@@ -1,0 +1,50 @@
+
+ /* Use.js */
+
+ .containers {
+    background: transparent;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    display: block;
+    
+  }
+  
+  .code-snippet {
+    background: transparent;
+    padding: 20px;
+    margin-bottom: 20px;
+    /* margin-left: 100px; */
+  }
+  
+  .code-snippet h2 {
+    margin-bottom: 20px;
+    font-family: "oblique";
+  }
+  
+  .code-snippet p{
+    font-size: large;
+    margin-bottom: 10px;
+    font-family: "oblique";
+  }
+  
+  pre video {
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 35px;
+    /* border: 1px solid #ffffff; */
+    box-shadow: #ffffff 0px 0px 10px 0px;
+    white-space: pre-wrap;
+  }
+  
+  .database-tables {
+    padding: 20px;
+    margin-bottom: 20px;
+    /* margin-left: 39%; */
+  }
+  
+  .database-tables h2 {
+    margin-bottom: 20px;
+    font-family: "oblique";
+  }
