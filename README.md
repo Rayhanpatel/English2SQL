@@ -3,7 +3,7 @@
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![React](https://img.shields.io/badge/React-18.2-61DAFB?logo=react&logoColor=black)
 ![Firebase](https://img.shields.io/badge/Firebase-Auth-FFCA28?logo=firebase&logoColor=black)
-![Status](https://img.shields.io/badge/Status-Production%20MVP-success)
+![Status](https://img.shields.io/badge/Status-Runnable%20Demo-success)
 
 **English2SQL** is a production-ready interface that democratizes data access by allowing non-technical users to query complex SQL databases using plain English.
 
@@ -97,12 +97,34 @@ To run this interface locally:
 
     Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+## 🔌 Backend Setup (Required for API)
+
+To make the "Architecture Diagram" real, you need to run the Python backend which creates a mock SQL environment.
+
+1. **Navigate to backend**:
+
+    ```bash
+    cd backend
+    ```
+
+2. **Install Python Dependencies**:
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+3. **Run the Server**:
+
+    ```bash
+    python server.py
+    ```
+
+    The API will be available at `http://localhost:5000`.
+
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
-<div align="center">
-  <sub>Built by <a href="https://github.com/Rayhanpatel">Rayhan Patel</a></sub>
-</div>
+Built by [Rayhan Patel](https://github.com/Rayhanpatel)
