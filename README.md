@@ -57,6 +57,12 @@ graph TD
 - **AI Orchestration**: LangChain + OpenAI/Ollama
 - **Database**: PostgreSQL (AWS RDS)
 
+## 🔮 Roadmap
+
+- [ ] **Multi-Dialect Support**: Add adapters for MySQL, Snowflake, and BigQuery.
+- [ ] **Advanced Visualization**: Integrate Vega-Lite for more complex automated charting.
+- [ ] **Voice Interface**: Add speech-to-text for hands-free querying.
+
 ## 🎥 Demo
 
 > *See the system in action converting varied business questions into precise SQL.*
@@ -119,7 +125,7 @@ To make the "Architecture Diagram" real, you need to run the Python backend whic
     python server.py
     ```
 
-    The API will be available at `http://localhost:5000`.
+    The API will be available at `http://localhost:5001`.
 
 ## 📄 License
 
