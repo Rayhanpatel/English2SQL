@@ -39,7 +39,7 @@ const DatabaseInfo = () => {
       <label className="label">Database Info</label>
       <p style={{ color: '#666', fontSize: '0.9rem', marginTop: '10px' }}>
         Connected to: <strong>MySQL (Mock)</strong><br />
-        Host: <strong>localhost:5000</strong>
+        Host: <strong>localhost:5001</strong>
       </p>
     </div>
   );
@@ -85,7 +85,7 @@ const SQLQueryGenerator = () => {
 
     try {
       // Step 1: Generate SQL
-      const genResponse = await axios.post('http://localhost:5000/generate_sql', {
+      const genResponse = await axios.post('http://localhost:5001/generate_sql', {
         query: query
       });
 
@@ -93,7 +93,7 @@ const SQLQueryGenerator = () => {
       setSqlQuery(generatedSql);
 
       // Step 2: Run Query
-      const runResponse = await axios.post('http://localhost:5000/run_query', {
+      const runResponse = await axios.post('http://localhost:5001/run_query', {
         query: generatedSql
       });
 
